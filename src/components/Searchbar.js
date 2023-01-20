@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
+// import searchicon from "../assests/search.svg";
 import "./Searchbar.css";
 
 const Searchbar = () => {
@@ -16,6 +17,7 @@ const Searchbar = () => {
     <div className="searchbar">
       <form onSubmit={handleSubmit}>
         <label htmlFor="search">Search</label>
+        {/* <img src={searchicon} alt="search-icon" className="search-icon" /> */}
         <input
           type="text"
           id="search"

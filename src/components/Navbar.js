@@ -21,6 +21,7 @@ const Navbar = () => {
           <h1>Cooking Ninja</h1>
         </Link>
         <Searchbar />
+
         <Link to="/create">Create Recipe</Link>
       </nav>
     </div>

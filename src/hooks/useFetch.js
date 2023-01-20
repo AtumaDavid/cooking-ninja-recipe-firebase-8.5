@@ -39,7 +39,7 @@ export const useFetch = (url, method = "GET") => {
         setData(json);
         setError(null);
       } catch (err) {
-        if (err.nanme === "AbortError") {
+        if (err.name === "AbortError") {
           //   console.log("the search was aborted");
         } else {
           setIsPending(false);

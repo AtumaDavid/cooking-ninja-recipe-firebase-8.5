@@ -24,3 +24,20 @@
     height: 24px;
     cursor: pointer;
 }
+
+
+/* media query for medium devives */
+/* For Tablet View */
+@media screen and (min-device-width: 768px)
+and (max-device-width: 1199px){
+    .theme-selector{
+        max-width: 80%;
+    }
+}
+
+/* media query for medium devives */
+@media screen and (max-width: 767px){
+    .theme-selector{
+        max-width: 90%;
+    }   
+}
